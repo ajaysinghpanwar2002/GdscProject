@@ -19,7 +19,7 @@ const Login = () => {
 
     const doc = {
       _id: gooleId,
-      _type: 'user',
+      _type: "user",
       userName: name,
       image: imageUrl,
     }
@@ -29,7 +29,7 @@ const Login = () => {
         navigate('/', { replace: true })
       })
   }
-
+  
 
   return (
     <div className='flex justify-start items-center flex-col h-screen'>
